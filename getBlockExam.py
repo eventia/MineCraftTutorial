@@ -1,7 +1,7 @@
 from mcpi.minecraft import Minecraft
 
 mc = Minecraft.create()
-x = 10
+x = 13
 y = 11
 z = 12
 
@@ -10,3 +10,5 @@ if gift != 0 :
     mc.postToChat("gift is not air")
 else :
     mc.postToChat("Place an offering on the pedestal.")
+
+	
